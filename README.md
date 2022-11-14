@@ -1,0 +1,1 @@
+An app for tracking your job applications. Sign up, create a profile, and add your applications so you know when to follow up, etc.

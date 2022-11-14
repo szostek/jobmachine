@@ -1,0 +1,20 @@
+In main package.json:
+-Added "type": "module" so node can use ES6 syntax for consistency with front (i.e. use of import instead of require)..
+-Added "start": "nodemon server" script to run nodemon
+
+Use concurrently to spin up both server and front
+
+CORS
+    -To get around cors issues, we add: 
+        "proxy": "http://localhost:5000" 
+    to package.json in Client. This only works in dev, so if server and client are hosted separately, further config is needed
+
+Axios: used for managing HTTP requests
+
+Morgan: HTTP logger middleware
+    -Allows for easier viewing of HTTP req/res during dev
+
+
+MAKE A DIAGRAM:
+    -Show relationship between server, router, controllers and front-end function calls
+    -Visualize how the routes work to add/update user info and jobs
