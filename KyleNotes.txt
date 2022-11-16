@@ -13,8 +13,3 @@ Axios: used for managing HTTP requests
 
 Morgan: HTTP logger middleware
     -Allows for easier viewing of HTTP req/res during dev
-
-
-MAKE A DIAGRAM:
-    -Show relationship between server, router, controllers and front-end function calls
-    -Visualize how the routes work to add/update user info and jobs
